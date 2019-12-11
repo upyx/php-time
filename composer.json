@@ -1,0 +1,31 @@
+{
+    "name": "upyx/php-time",
+    "description": "Object oriented representation of time and time only (without date, timezone or something else).",
+    "type": "library",
+    "keywords": ["time"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Rabochiy",
+            "email": "upyx.00@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "php-64bit": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Upyx\\PhpTime\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Upyx\\PhpTime\\": "tests"
+        }
+    },
+    "minimum-stability": "dev"
+}
